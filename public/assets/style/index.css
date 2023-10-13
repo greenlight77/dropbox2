@@ -1,0 +1,23 @@
+.container .shadow {
+  min-height: 400px;
+}
+.container .flier {
+  width: 200px;
+  height: 250px;
+}
+.container .btn-radio input {
+  display: none;
+}
+.container .btn-radio input:checked + label {
+  background-color: #345d4d;
+  color: #fff;
+}
+.container .btn-radio label {
+  background-color: #eee;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+.container .btn-radio label:hover {
+  background-color: #ccc;
+}/*# sourceMappingURL=index.css.map */

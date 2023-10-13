@@ -1,0 +1,27 @@
+.container{
+  .shadow{
+    min-height: 400px;
+  }
+  .flier{
+    width: 200px;
+    height: 250px
+  }
+  .btn-radio{
+    input{
+      display: none;
+    }
+    input:checked + label{
+      background-color: #345d4d;
+      color: #fff;
+    }
+    label{
+      background-color: #eee;
+      border-radius: 5px;
+      font-weight: bold;
+      padding: .5rem 1rem;
+      &:hover{
+        background-color: #ccc;
+      }
+    }
+  }
+}
